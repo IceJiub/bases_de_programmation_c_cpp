@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    
+
     double x = 7.5;
     double y = 3.2;
 

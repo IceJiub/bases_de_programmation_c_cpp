@@ -17,26 +17,21 @@ int main() {
     cin >> operation;
 
     while (operation != 0) {
-        if (operation == 1) {
+        if (operation == 1)
             cout << "Résultat : " << x + y << endl;
-        }
-        else if (operation == 2) {
+        else if (operation == 2)
             cout << "Résultat : " << x - y << endl;
-        }
-        else if (operation == 3) {
+        else if (operation == 3)
             cout << "Résultat : " << x * y << endl;
-        }
         else if (operation == 4) {
-            if (y == 0) {
+            if (y == 0)
                 cout << "Division par 0 impossible." << endl;
-            }
-            else {
+            else
                 cout << "Résultat : " << x / y << endl;
-            }
         }
-        else {
+        else
             cout << "Opération incorrecte." << endl;
-        }
+
         cout << "Choisissez une opération (0 : quitter, 1 : +, 2 :  -, 3 : *, 4 : /) : " << endl;
         cin >> operation;
     }
