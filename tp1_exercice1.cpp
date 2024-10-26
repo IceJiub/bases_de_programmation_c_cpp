@@ -8,8 +8,8 @@ int main() {
     cout << "Saisir un nombre : " << endl;
     cin >> n;
 
-    for(int i = 0 ; i < 5 ; i++) {
-        for(int k = 0 ; k <= i ; k++) {
+    for(int i = 1 ; i <= n ; i++) {
+        for(int k = 1 ; k <= i ; k++) {
             cout << "*";
         }
         cout << "\n";
