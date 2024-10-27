@@ -10,7 +10,7 @@ double addMargin(double prixHT);
 double addVAT(double prixHT);
 double addEcoTax(double prix);
 bool isPrime(int a);
-int findPrevousPrime(int a);
+int findPreviousPrime(int a);
 int findTwoPreviousPrime(int a);
 
 #endif
