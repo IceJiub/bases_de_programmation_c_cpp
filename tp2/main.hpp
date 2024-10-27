@@ -12,5 +12,8 @@ double addEcoTax(double prix);
 bool isPrime(int a);
 int findPreviousPrime(int a);
 int findTwoPreviousPrime(int a);
+void drawRectangle(int l, int L);
+void drawLine(bool line, int L);
+void drawSymbol(bool line);
 
 #endif
