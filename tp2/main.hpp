@@ -11,7 +11,7 @@ double addVAT(double prixHT);
 double addEcoTax(double prix);
 bool isPrime(int a);
 int findPreviousPrime(int a);
-int findTwoPreviousPrime(int a);
+void findTwoPreviousPrime(int nb_prime);
 void drawRectangle(int l, int L);
 void drawLine(bool line, int L);
 void drawSymbol(bool line);
