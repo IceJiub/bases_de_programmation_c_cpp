@@ -1,9 +1,8 @@
 #include <iostream>
-
 using namespace std;
 
-int main() {
-
+int main()
+{
     int x;
 
     cout << "Entrez un nombre x : " << endl;
@@ -17,5 +16,4 @@ int main() {
         cout << x << " est égale à " << 10 << endl;
 
     return 0;
-
 }

@@ -1,9 +1,8 @@
 #include <iostream>
-
 using namespace std;
 
-int main() {
-
+int main()
+{
     int x;
 
     cout << "Entrez un nombre x : " << endl;
@@ -15,5 +14,4 @@ int main() {
         cout << x << " est impair." << endl;
 
     return 0;
-
 }

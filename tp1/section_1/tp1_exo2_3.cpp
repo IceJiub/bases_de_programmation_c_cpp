@@ -1,9 +1,8 @@
 #include <iostream>
-
 using namespace std;
 
-int main() {
-
+int main()
+{
     int x;
     int y;
 
@@ -20,5 +19,4 @@ int main() {
         cout << x << " est égale à " << y << endl;
 
     return 0;
-
 }

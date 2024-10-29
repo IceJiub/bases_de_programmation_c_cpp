@@ -1,9 +1,8 @@
 #include <iostream>
-
 using namespace std;
 
-int main() {
-
+int main()
+{
     int N;
     int multi = 0;
 

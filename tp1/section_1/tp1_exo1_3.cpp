@@ -1,9 +1,8 @@
 #include <iostream>
-
 using namespace std;
 
-int main() {
-
+int main()
+{
     double x = 7.5;
     double y = 3.2;
 
@@ -13,5 +12,4 @@ int main() {
     cout << "La division est égale à : " << x / y << endl;
 
     return 0;
-
 }
