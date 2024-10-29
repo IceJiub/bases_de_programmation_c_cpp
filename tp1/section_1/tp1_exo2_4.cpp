@@ -1,9 +1,8 @@
 #include <iostream>
-
 using namespace std;
 
-int main() {
-
+int main()
+{
     double x;
     double y;
     int operation;
@@ -21,16 +20,13 @@ int main() {
         cout << "Résultat : " << x - y << endl;
     else if (operation == 3)
         cout << "Résultat : " << x * y << endl;
-    else if (operation == 4) {
+    else if (operation == 4)
         if (y == 0)
             cout << "Division par 0 impossible." << endl;
         else
             cout << "Résultat : " << x / y << endl;
-    }
-
     else
         cout << "Opération incorrecte." << endl;
 
     return 0;
-
 }
