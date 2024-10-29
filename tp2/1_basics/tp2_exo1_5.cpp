@@ -1,14 +1,16 @@
 #include <iostream>
 using namespace std;
 
-bool greaterThan(int num, int X) {
+bool greaterThan(int num, int X)
+{
     if (num > X)
         return true;
     else
         return false;
 }
 
-int main() {
+int main()
+{
     cout<< "Donner un nombre entier" <<endl;
     int num; //déclaration de la variable
     cin >> num; // saisie et stockage dans la variable
