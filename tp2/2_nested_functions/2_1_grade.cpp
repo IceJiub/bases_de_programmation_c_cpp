@@ -2,9 +2,9 @@
 #include "main.hpp"
 using namespace std;
 
-int addGrade() 
+double addGrade() 
 {
-    int note = -1;
+    double note = -1;
     while (note < 0 || note > 20)
     {
         cout << "Entrez une note entre 0 et 20 : " << endl;
@@ -13,9 +13,9 @@ int addGrade()
     return note;
 }
 
-int mean(int nbGrades) 
+double mean(int nbGrades) 
 {
-    int somme = 0;
+    double somme = 0;
     for (int i = 1 ; i <= nbGrades ; i++)
         somme += addGrade();
     return somme / nbGrades;
