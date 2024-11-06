@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-    int nbGrades;
-    int moyenne;
+    double nbGrades;
+    double moyenne;
 
     cout << "Entrez le nombre de notes : " <<endl;
     cin >> nbGrades;
