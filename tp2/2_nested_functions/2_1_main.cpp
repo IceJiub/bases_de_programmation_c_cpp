@@ -11,6 +11,4 @@ int main()
     cin >> nbGrades;
     moyenne = mean(nbGrades);
     cout << "La moyenne est : " << moyenne << endl;
-
-    return 0;
 }

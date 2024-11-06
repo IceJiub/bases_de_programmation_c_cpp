@@ -10,6 +10,4 @@ int main()
     cout << "Saisir la largeur: " << endl;
     cin >> L;
     drawRectangle(l, L);
-
-    return 0;
 }

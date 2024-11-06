@@ -10,6 +10,4 @@ int main()
     cin >> nb_prime;
 
     findTwoPreviousPrime(nb_prime);
-    
-    return 0;
 }
