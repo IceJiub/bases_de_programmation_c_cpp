@@ -3,6 +3,7 @@
 ## Table des Matières
 1. [TP1 : Utilisation des Variables, Conditions et Boucles](#tp1--utilisation-des-variables-conditions-et-boucles)
 2. [TP2 : Utilisation des Fonctions](#tp2--utilisation-des-fonctions)
+2. [TP3 : Utilisation des Pointeurs](#tp3--utilisation-des-pointeurs)
 
 ## TP1 : Utilisation des Variables, Conditions et Boucles
 Dans ce premier TP, nous allons apprendre à utiliser les éléments de base de la programmation en C/C++ :
