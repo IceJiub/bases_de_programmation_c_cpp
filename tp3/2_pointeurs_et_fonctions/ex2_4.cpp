@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-void distributeBonus(double *salaire1, double *salaire2, double *salaire3, double *bonus)
+void distributeBonus(double *salaire1, double *salaire2, double *salaire3, double bonus)
 {
-    double bonus_split = *bonus / 3;
+    double bonus_split = bonus / 3;
     *salaire1 += bonus_split;
     *salaire2 += bonus_split;
     *salaire3 += bonus_split;
@@ -22,6 +22,6 @@ int main()
     cout << "Valeur du bonus : " << endl;
     cin >> bonus;
 
-    distributeBonus(&salaire1, &salaire2, &salaire3, &bonus);
+    distributeBonus(&salaire1, &salaire2, &salaire3, bonus);
     cout << "Salaire total des salariés : " << salaire1 << ", " << salaire2 << ", " << salaire3 << endl;
 }
