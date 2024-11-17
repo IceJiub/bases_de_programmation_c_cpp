@@ -16,7 +16,7 @@ Bienvenue dans le TP3 de bases de programmation en C++. Dans ce TP, nous allons 
 2. **[Pointeurs et fonctions](2_pointeurs_et_fonctions)**
     - Utilisation des pointeurs via des fonctions
 
-3. **[Pointeurs et fonctions](3_pointeurs_et_fonctions_suite)**
+3. **[Pointeurs et fonctions : approfondissement](3_pointeurs_et_fonctions_suite)**
     - Utilisation des pointeurs via des fonctions sur des cas avancés
 
 ## Prérequis
