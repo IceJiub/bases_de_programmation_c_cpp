@@ -1,4 +1,5 @@
 # Bases de Programmation en C/C++
+Ce projet vise à fournir une introduction pratique à la programmation en C et C++. À travers une série de travaux pratiques (TP), les étudiants apprendront les concepts fondamentaux de ces langages, y compris la manipulation des variables, l'utilisation des structures conditionnelles et des boucles, la création et l'utilisation des fonctions, ainsi que la gestion des pointeurs. Chaque TP est conçu pour renforcer les compétences de base et préparer les étudiants à des sujets plus avancés en programmation.
 
 ## Table des Matières
 1. [TP1 : Utilisation des Variables, Conditions et Boucles](#tp1--utilisation-des-variables-conditions-et-boucles)
@@ -9,7 +10,7 @@
 Dans ce premier TP, nous allons apprendre à utiliser les éléments de base de la programmation en C/C++ :
 - **Variables** : Déclaration et initialisation des variables.
 - **Conditions** : Utilisation des structures conditionnelles `if`, `else if`, et `else`.
-- **Boucles** : Utilisation des boucles `for`, `while`, et `do while`.
+- **Boucles** : Utilisation des boucles `for`, `while`.
 
 ## TP2 : Utilisation des Fonctions
 Dans ce deuxième TP, nous allons nous concentrer sur l'utilisation des fonctions en C/C++ :
@@ -32,6 +33,7 @@ Dans ce troisième TP, nous allons explorer l'utilisation des pointeurs en C/C++
 
 - [Documentation C++](https://en.cppreference.com/w/)
 - [Tutoriel sur les pointeurs en C++](https://www.learncpp.com/cpp-tutorial/610-pointers/)
+- [Cours Université Avignon](https://e-uapv2024.univ-avignon.fr/)
 
 ## Auteur
 
