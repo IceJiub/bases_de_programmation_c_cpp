@@ -1,4 +1,4 @@
-# TP3 - Utilisation des Pointeurs en C++
+# TP1 - Utilisation des Variables, Conditions et Boucles en C++
 
 Dans ce TP1, nous allons explorer les bases de la programmation en C++ en nous concentrant sur l'utilisation des variables, des conditions et des boucles. Ces concepts sont essentiels pour écrire des programmes efficaces et structurés.
 
