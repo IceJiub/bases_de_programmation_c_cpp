@@ -4,7 +4,8 @@ Ce projet vise à fournir une introduction pratique à la programmation en C et 
 ## Table des Matières
 1. [TP1 : Utilisation des Variables, Conditions et Boucles](#tp1--utilisation-des-variables-conditions-et-boucles)
 2. [TP2 : Utilisation des Fonctions](#tp2--utilisation-des-fonctions)
-2. [TP3 : Utilisation des Pointeurs](#tp3--utilisation-des-pointeurs)
+3. [TP3 : Utilisation des Pointeurs](#tp3--utilisation-des-pointeurs)
+4. [TP4 : Utilisation des Tableaux](#tp4--utilisation-des-tableaux)
 
 ## TP1 : Utilisation des Variables, Conditions et Boucles
 Dans ce premier TP, nous allons apprendre à utiliser les éléments de base de la programmation en C/C++ :
@@ -23,6 +24,12 @@ Dans ce troisième TP, nous allons explorer l'utilisation des pointeurs en C/C++
 - **Déclaration et Initialisation** : Comment déclarer et initialiser des pointeurs.
 - **Opérations sur les Pointeurs** : Utilisation des opérateurs sur pointeurs.
 - **Pointeurs et Fonctions** : Passage de pointeurs aux fonctions et retour de pointeurs depuis des fonctions.
+
+## TP4 : Utilisation des Tableaux
+Dans ce quatrième TP, nous allons apprendre à utiliser les tableaux en C/C++ :
+- **Déclaration et Initialisation** : Comment déclarer et initialiser des tableaux.
+- **Accès aux Éléments** : Comment accéder et modifier les éléments d'un tableau.
+- **Passage de Tableaux aux Fonctions** : Comment passer des tableaux aux fonctions et les manipuler.
 
 ## Prérequis
 
