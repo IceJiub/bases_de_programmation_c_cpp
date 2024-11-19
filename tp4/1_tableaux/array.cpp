@@ -9,8 +9,8 @@ void displayArray(int array[], int size)
         cout << array[i];
         if (i < size - 1)
             cout << ", ";
-        cout << endl;
     }
+    cout << endl;
 }
 
 void displayArray(double array[], int size)
@@ -20,6 +20,6 @@ void displayArray(double array[], int size)
         cout << array[i];
         if (i < size - 1)
             cout << ", ";
-        cout << endl;
     }
+    cout << endl;
 }
