@@ -75,6 +75,21 @@ int getMin(int array[], int size)
     return min;
 }
 
+int getMax(int array[], int size)
+{
+    int max = array[0];
+    for (int i = 0 ; i < size ; i++)
+        if (array[i] > max)
+            max = array[i];
+    return max;
+}
+
+void displayMinMax(int array[], int size)
+{
+    cout << "Min : " << getMin(array, size) << endl;
+    cout << "Max : " << getMax(array, size) << endl;
+}
+
 double mean(double array[], int size)
 {
     double sum = 0;
