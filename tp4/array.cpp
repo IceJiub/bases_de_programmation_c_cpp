@@ -82,3 +82,11 @@ double mean(double array[], int size)
         sum += array[i];
     return sum / size;
 }
+
+bool contain(int array[], int size, int value)
+{
+    for (int i = 0 ; i < size ; i++)
+        if (array[i] == value)
+            return true;
+    return false;
+}
