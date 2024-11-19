@@ -1,5 +1,5 @@
 #include <iostream>
-#include "main.hpp"
+#include "array.hpp"
 using namespace std;
 
 void displayArray(int array[], int size)
@@ -9,5 +9,17 @@ void displayArray(int array[], int size)
         cout << array[i];
         if (i < size - 1)
             cout << ", ";
+        cout << endl;
+    }
+}
+
+void displayArray(double array[], int size)
+{
+    for (int i = 0 ; i < size ; i++)
+    {
+        cout << array[i];
+        if (i < size - 1)
+            cout << ", ";
+        cout << endl;
     }
 }
