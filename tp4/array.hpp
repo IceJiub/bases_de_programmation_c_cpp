@@ -4,5 +4,6 @@
 void displayArray(int array[], int size);
 void displayArray(double array[], int size);
 void initArray(int array[], int size, int value);
+void fillArrayWithRandNum(int array[], int size, int min, int max);
 
 #endif
