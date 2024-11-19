@@ -38,3 +38,21 @@ void fillArrayWithRandNum(int array[], int size, int min, int max)
     for (int i = 0 ; i < size ; i++)
         array[i] = rand() % (max - min + 1) + min;
 }
+
+bool isPrime(int a)
+{
+    if (a == 1)
+        return true;
+    for (int i = 2 ; i < a ; i++)
+        if (a % i == 0)
+            return false;
+    return true;
+}
+
+int getNextPrime(int a)
+{
+    int i = a + 1;
+    while (!isPrime(i))
+        i++;
+    return i;
+}
