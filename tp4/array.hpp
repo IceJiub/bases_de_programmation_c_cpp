@@ -12,5 +12,6 @@ int getMin(int array[], int size);
 double mean(double array[], int size);
 bool contain(int array[], int size, int value);
 int search(int array[], int size, int value);
+int count(int array[], int size, int value);
 
 #endif

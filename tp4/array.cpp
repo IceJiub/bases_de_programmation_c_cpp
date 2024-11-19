@@ -98,3 +98,12 @@ int search(int array[], int size, int value)
             return i;
     return -1;
 }
+
+int count(int array[], int size, int value)
+{
+    int c = 0;
+    for (int i = 0 ; i < size ; i++)
+        if (array[i] == value)
+            c++;
+    return c;
+}
