@@ -7,5 +7,6 @@ void initArray(int array[], int size, int value);
 void fillArrayWithRandNum(int array[], int size, int min, int max);
 bool isPrime(int a);
 int getNextPrime(int a);
+void fillArrayWithPrimeNumbers(int array[], int size);
 
 #endif
