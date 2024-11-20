@@ -140,6 +140,13 @@ void shiftArray(int array[], int size, int value)
             array[i] = array[i+1];
 }
 
+void shiftArrayFromIndex(int array[], int size, int index)
+{
+    for (int i = index ; i < size ; i++)
+        if (i + 1 < size)
+            array[i] = array[i+1];
+}
+
 void removeValue(int array[], int *size, int value)
 {
     for (int i = 0 ; i < *size ; i++)
@@ -148,6 +155,23 @@ void removeValue(int array[], int *size, int value)
         {
             shiftArray(array, *size, value);
             *size = *size - 1;
+        }
+    }
+}
+
+void removeDuplicates(int array[], int *size)
+{
+    for (int i = 0 ; i < *size ; i++)
+    {
+        for (int k = i + 1 ; k < *size ; k++)
+        {
+            if (array[k] == array[i])
+            {
+                while (array[k] == array[i]) {
+                    shiftArrayFromIndex(array, *size, k);
+                    *size = *size - 1;
+                }
+            }
         }
     }
 }
