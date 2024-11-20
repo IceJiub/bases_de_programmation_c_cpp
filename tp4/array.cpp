@@ -165,12 +165,9 @@ void removeDuplicates(int array[], int *size)
     {
         for (int k = i + 1 ; k < *size ; k++)
         {
-            if (array[k] == array[i])
-            {
-                while (array[k] == array[i]) {
-                    shiftArrayFromIndex(array, *size, k);
-                    *size = *size - 1;
-                }
+            while (array[k] == array[i]) {
+                shiftArrayFromIndex(array, *size, k);
+                *size = *size - 1;
             }
         }
     }
