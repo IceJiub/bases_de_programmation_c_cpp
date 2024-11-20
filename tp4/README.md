@@ -1,4 +1,3 @@
-# TP3 - Utilisation des Pointeurs en C++
 # TP4 - Utilisation des Tableaux en C++
 
 Bienvenue dans le TP4 de bases de programmation en C++. Dans ce TP, nous allons apprendre à utiliser les tableaux, une structure de données essentielle en C++.
