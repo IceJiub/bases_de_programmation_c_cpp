@@ -16,5 +16,7 @@ bool contain(int array[], int size, int value);
 int search(int array[], int size, int value);
 int count(int array[], int size, int value);
 void resetValue(int tab[], int size, int value);
+void shiftArray(int tab[], int size, int value);
+void removeValue(int tab[], int *size, int value);
 
 #endif

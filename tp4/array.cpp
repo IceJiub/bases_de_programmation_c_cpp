@@ -131,3 +131,23 @@ void resetValue(int array[], int size, int value)
             array[i] = 0;
     }
 }
+
+void shiftArray(int array[], int size, int value)
+{
+    int index = search(array, size, value);
+    for (int i = index ; i < size ; i++)
+        if (i + 1 < size)
+            array[i] = array[i+1];
+}
+
+void removeValue(int array[], int *size, int value)
+{
+    for (int i = 0 ; i < *size ; i++)
+    {
+        if (array[i] == value)
+        {
+            shiftArray(array, *size, value);
+            *size = *size - 1;
+        }
+    }
+}
