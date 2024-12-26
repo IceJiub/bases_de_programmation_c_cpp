@@ -24,19 +24,5 @@ int PollutingProjectsAnalyzer::addNewProject()
 
 void PollutingProjectsAnalyzer::addMeasure(int id, double measure)
 {
-    int i;
-    if (mProjects[id] == -1)
-    {
-        mProjects[id].addMeasure(measure);
-        break;
-    }
-    if (i == 4)
-    {
-        for (int j = 0; j < 4; j++)
-        {
-            mPollutionMeasures[j] = mPollutionMeasures[j + 1];
-        }
-        mPollutionMeasures[4] = measure;
-    }
-
+    mProjects[id].addMeasure(measure);
 }
