@@ -31,7 +31,7 @@ void PollutingProject::addMeasure(double measure)
             break;
         }
     }
-    if (i == 4)
+    if (i == 5)
     {
         for (int j = 0; j < 4; j++)
         {
@@ -47,10 +47,9 @@ void PollutingProject::displayMeasures()
     for (int i = 0; i < 5; i++)
     {
         if (mPollutionMeasures[i] != -1)
-            if (i == 4 || mPollutionMeasures[i + 1] == -1)
-                cout << mPollutionMeasures[i];
-            else
-                cout << mPollutionMeasures[i] << ", ";
+            cout << mPollutionMeasures[i];
+            if (i < 4 && mPollutionMeasures[i + 1] != -1)
+                cout << ", ";
     }
     cout << endl;
 }
